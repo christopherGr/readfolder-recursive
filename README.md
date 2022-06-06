@@ -13,6 +13,6 @@ Accepts the path of a folder and returns all the files included in the folder an
 &nbsp;&nbsp;const readFolderRecursive = require('readfolder-recursive');<br>
 &nbsp;&nbsp;const files = await readFolderRecursive("C:\Users\myUsername\Desktop\myFolder", [], [".mp4"]);<br>
 &nbsp;&nbsp;console.log(files)<br>
-It will output all the files from the folder <i>"C:\Users\myUsername\Desktop\myFolder"</i> apart from the <i>.mp4 files</i>
 })()<br>
+<b>It will output all the files from the folder <i>"C:\Users\myUsername\Desktop\myFolder"</i> apart from the <i>.mp4 files</i></b>
 
