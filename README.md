@@ -1,1 +1,1 @@
-<b background-color:'silver'>Read Folder Recursive</b>
+<b>Read Folder Recursive</b>
