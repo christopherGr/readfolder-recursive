@@ -8,9 +8,9 @@ Accepts the path of a folder and returns all the files included in the folder an
 &nbsp;&nbsp;2. An array with file extensions ([".png", "mp4"]). Only the files that their extensions matches would returned. An empty array will return all the files. (optional)<br>
 &nbsp;&nbsp;3. An array with files extensions to ignore. The files with these extnesions would not be returned.<br>
 <br>
-<b>Usage</b> - Returns a Promise<br>
-&nbsp;&nbsp;const readFolderRecursive = require('readfolder-recursive');<br>
-&nbsp;&nbsp;const files = await readFolderRecursive("C:\Users\myUsername\Desktop\myFolder", [], [".mp4"]);<br>
-&nbsp;&nbsp;console.log(files)<br>
+<b>Usage</b> - Returns a Promise<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;const readFolderRecursive = require('readfolder-recursive');<br>
+&nbsp;&nbsp;&nbsp;&nbsp;const files = await readFolderRecursive("C:\Users\myUsername\Desktop\myFolder", [], [".mp4"]);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log(files)<br><br>
 <b>It will output all the files from the folder <i>"C:\Users\myUsername\Desktop\myFolder"</i> apart from the <i>.mp4 files</i></b>
 
