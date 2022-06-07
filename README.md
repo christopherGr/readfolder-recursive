@@ -7,9 +7,9 @@ Accepts the path of a folder and returns all the files included in the folder an
 1. The path of the folder (required)<br>
 2. An array with file extensions [".png", ".mp4"]. Only the files that their extensions matches would be returned. An empty array will return all the files. (optional)<br>
 3. An array with file extensions to ignore. The files with these extnesions would not be returned. (optional)<br>
-<br>
+<i>****If an extension is include in both arrays, files with this extension would not be returned.</i><br>
+
 <b>Usage - Returns a Promise</b><br>
-<br>
 
 <b>Example 1</b><br>
 const readFolderRecursive = require('readfolder-recursive');<br>
