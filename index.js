@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 function explore(folder, extensions=[], exceptions=[]){
+	console.log('test2')
 	return new Promise((resolve,reject)=>{
 		fs.readdir(folder, async(err, files)=>{
 			if(err) return reject(err);
